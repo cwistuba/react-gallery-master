@@ -1,0 +1,11 @@
+.imageListItem-item {
+  display: inline-block;
+  margin: 80px;
+  border: 1px solid black;
+}
+
+img {
+  max-height: 200px;
+  max-width: 200px;
+  padding: 20px;
+}

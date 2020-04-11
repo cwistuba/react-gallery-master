@@ -1,8 +1,8 @@
 const galleryItems = [
   {
     id: 1,
-    path: "images/goat_small.jpg",
-    description: "Photo of a goat taken at Glacier National Park.",
+    path: "images/ping_logo.jpg",
+    description: "Photo of my favorite Golf Club Brand.",
     likes: 0,
   },
   {
@@ -15,6 +15,12 @@ const galleryItems = [
     id: 3,
     path: "images/kc_chiefs.jpg",
     description: "Photo of the best NFL Football Team!!",
+    likes: 0,
+  },
+  {
+    id: 4,
+    path: "images/powercat.jpg",
+    description: "Photo of the best College Football Team!!",
     likes: 0,
   },
 ];
