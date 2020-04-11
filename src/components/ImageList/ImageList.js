@@ -9,6 +9,7 @@ class ImageList extends Component {
           key={index}
           item={item}
           updateLikes={this.props.updateLikes}
+          toggleImage={this.props.toggleImage}
         />
       );
     });

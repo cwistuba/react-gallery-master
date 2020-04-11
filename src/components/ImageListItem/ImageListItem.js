@@ -3,19 +3,17 @@ import "./ImageListItem.css";
 
 class ImageListItem extends Component {
   render() {
-    let buttonElement = <div>0</div>;
-    if (!this.props.item.likes) {
-      buttonElement = (
-        <button onClick={this.props.updateLikes(this.props.item.id)}>
-          Like
-        </button>
-      );
-    }
+    const buttonElement = (
+      <button onClick={this.props.updateLikes(this.props.item.id)}>Like</button>
+    );
 
     return (
       <div className="imageListItem-item">
-        <img src={this.props.item.path} />
-        <p> {buttonElement}</p>
+        <div>
+          <img src={this.props.item.path} />
+        </div>
+        <div>{buttonElement}</div>
+        <div>{this.props.item.likes}</div>
       </div>
     );
   }
