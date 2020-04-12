@@ -16,7 +16,7 @@ class ImageList extends Component {
 
     return (
       <div>
-        <p>Image Gallery</p>
+        <p className="gallery-title">Image Gallery</p>
         {imageArray}
       </div>
     );
