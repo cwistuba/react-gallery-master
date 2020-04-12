@@ -34,8 +34,6 @@ class App extends Component {
   };
 
   toggleImage = (id) => (event) => {
-    console.log(id);
-
     axios
       .put(`/gallery/clicked/${id}`)
       .then((response) => {

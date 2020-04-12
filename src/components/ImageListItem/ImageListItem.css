@@ -1,4 +1,23 @@
-.imageListItem-item {
+/* .imageListItem-item {
+  display: inline-block;
+  margin: 80px;
+} */
+
+/* img {
+  max-height: 200px;
+  max-width: 200px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+.description {
+  height: 200px;
+  width: 200px;
+} */
+
+.container {
   display: inline-block;
   margin: 80px;
 }
@@ -6,6 +25,14 @@
 img {
   max-height: 200px;
   max-width: 200px;
-  padding: 20px;
   border: 1px solid black;
+  padding: 20px;
+}
+
+.description {
+  height: 200px;
+  width: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }

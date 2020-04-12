@@ -21,9 +21,9 @@ router.put("/clicked/:id", (req, res) => {
   const galleryId = req.params.id;
   for (const galleryItem of galleryItems) {
     if (galleryItem.id == galleryId) {
-      if (galleryItem.toggle === true) {
+      if (galleryItem.toggle == true) {
         galleryItem.toggle = false;
-      } else if (galleryItem.toggle === false) {
+      } else if (galleryItem.toggle == false) {
         galleryItem.toggle = true;
       }
     }
